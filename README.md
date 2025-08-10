@@ -8,9 +8,6 @@ Welcome to the Trip Request Management System, a web application built with Lara
 - **Trip Request Submission:** Employees can submit trip requests easily.
 - **Approval Workflow:** Managers can review, approve, or reject trip requests.
 - **Role-Based Access:** Distinct permissions for regular users, managers, and admins.
-- **Request History:** Users can view their submitted trip requests and statuses.
-- **Notifications:** Automated notifications for request updates.
-- **Reporting:** Export and view statistics on trips.
 
 ## Technologies Used
 
