@@ -8,14 +8,17 @@ Welcome to the Trip Request Management System, a web application built with Lara
 - **Trip Request Submission:** Employees can submit trip requests easily.
 - **Approval Workflow:** Managers can review, approve, or reject trip requests.
 - **Role-Based Access:** Distinct permissions for regular users, managers, and admins.
+- **Contact Messages:** Users can send messages with subject lines and content which will be displayed in the admin dashboard.
+- **Arabic RTL Orientation:** The website is targeted towards Arabic speaking audiences and is only available in Arabic language.
+
 
 ## Technologies Used
 
 - **Framework:** [Laravel](https://laravel.com/)
 - **Language:** PHP
-- **Database:** MySQL/MariaDB (can be configured)
-- **Frontend:** Blade templating, Bootstrap (or other CSS framework)
-- **Authentication:** Laravel Breeze/Jetstream (depending on setup)
+- **Database:** MySQL with XAMPP
+- **Frontend:** Blade templating
+- **Authentication:** Custom authentication system without external packages for simplicity as a proof of concept.
 
 ## Getting Started
 
@@ -23,7 +26,7 @@ Welcome to the Trip Request Management System, a web application built with Lara
 
 - PHP >= 8.0
 - Composer
-- MySQL or compatible database
+- MySQL with XAMPP
 - Node.js & npm (for frontend assets)
 
 ### Installation
@@ -74,9 +77,10 @@ Welcome to the Trip Request Management System, a web application built with Lara
 ## Usage
 
 - Visit the local URL shown in the terminal (typically http://127.0.0.1:8000).
-- Register a new account or log in.
-- Submit trip requests, view statuses, and manage approvals as per your role.
-
+- Register a new account or log in using already created accounts like "admin@sawwah.com" password: admin123. or "user@example.com" password: user123.
+- Submit trip requests, view statuses from admin control panel, and manage approvals from the dashboard.
+- Send contact messages using the contact us section. (Messages will be displayed in the admin dashboard).
+- Known bugs: Logging out requires page refresh otherwise page will be unresponsive.
 ## Contributing
 
 Contributions are welcome! Please open issues and submit pull requests for improvements or bug fixes.
